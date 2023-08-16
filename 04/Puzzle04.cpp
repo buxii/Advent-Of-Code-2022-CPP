@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 
-void solve_A(int& resultat1, int& resultat2) {
+void solve(int& resultat1, int& resultat2) {
 	std::ifstream f("input.txt");
 	if (f.is_open()) {
 		int e1, d1, e2, d2; //esquerra1,dreta1,etc.
@@ -21,7 +21,7 @@ void solve_A(int& resultat1, int& resultat2) {
 
 int main() {
 	int resultatA = 0, resultatB = 0;
-	solve_A(resultatA,resultatB);
+	solve(resultatA,resultatB);
 	std::cout << "RESULTAT 1: " << resultatA << std::endl;
 	std::cout << "RESULTAT 2: " << resultatB << std::endl;
 	
