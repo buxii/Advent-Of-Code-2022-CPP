@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 void solve(int& resultat1, int& resultat2) {
 	std::ifstream f("input.txt");
